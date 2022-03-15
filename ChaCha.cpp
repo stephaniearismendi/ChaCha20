@@ -25,21 +25,21 @@
 
 void ChaCha20::declarar_datos()
 {
-    key[0] = 0x03020100;
-    key[1] = 0x07060504;
-    key[2] = 0x0b0a0908;
-    key[3] = 0x0f0e0d0c;
-    key[4] = 0x13121110;
-    key[5] = 0x17161514;
-    key[6] = 0x1b1a1918;
-    key[7] = 0x1f1e1d1c;
+    key[0] = 0x97a3990e;
+    key[1] = 0x1beb533c;
+    key[2] = 0xad6b42e2;
+    key[3] = 0x242d312f;
+    key[4] = 0x2b76c2d9;
+    key[5] = 0xd7f45e53;
+    key[6] = 0xa975178e;
+    key[7] = 0xa5683a45;
     // for(int i = 0; i < 8; i++){
     //     cout << key[i] << endl;
     // }
     count = 0x00000001;
-    nonce[0] = 0x09000000;
-    nonce[1] = 0x4a000000;
-    nonce[2] = 0x00000000;
+    nonce[0] = 0xacde9eb6;
+    nonce[1] = 0x544ee73;
+    nonce[2] = 0x8e9afad3;
 }
 
 // void ChaCha20::introducir_datos(){
